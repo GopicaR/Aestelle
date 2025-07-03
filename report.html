@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Report a Situation | Aestelle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="subpage-header">
+    <h1>Report a Situation</h1>
+    <p class="motto">"Your story is safe here."</p>
+  </header>
+
+  <section class="report-form">
+    <form action="https://formspree.io/f/xanjkpvl" method="POST">
+      <label>Your Name (optional)</label>
+      <input type="text" name="name">
+
+      <label>Email (to reach you if needed)</label>
+      <input type="email" name="email">
+
+      <label>Issue Type</label>
+      <select name="issue">
+        <option value="">Choose...</option>
+        <option value="Domestic Abuse">Domestic Abuse</option>
+        <option value="Child Labour">Child Labour</option>
+        <option value="Physical Abuse">Physical Abuse</option>
+      </select>
+
+      <label>Your Message</label>
+      <textarea name="message" rows="5" required></textarea>
+
+      <label>
+        <input type="checkbox" name="consent" required />
+        I understand this message will be reviewed in confidentiality by Aestelle.
+      </label>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Aestelle • Voice changes everything</p>
+  </footer>
+</body>
+</html>

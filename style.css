@@ -1,0 +1,239 @@
+*
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fff;
+  color: #4a3e3e;
+}
+
+.hero, .subpage-header {
+  background: linear-gradient(to right, #f7f0f4, #fafafa);
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.hero h1, .subpage-header h1 {
+  font-size: 2.5rem;
+  color: #B76E79;
+}
+
+.motto, .tagline {
+  font-size: 1.2rem;
+  color: #6E5E5F;
+  font-style: italic;
+}
+
+.mission, .actions, .join-content, .report-form, .support-ways {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.action-card, .button {
+  display: block;
+  background: #B76E79;
+  color: #fff;
+  padding: 0.8rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+.action-card:hover, .button:hover {
+  background: #9a5d68;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: left;
+}
+
+input, select, textarea, button {
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #B76E79;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9a5d68;
+}
+
+.footer {
+  background-color: #f4ecef;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+/* 🎀 Shared Subpage Sections */
+.subpage-header {
+  background: linear-gradient(to right, #f7f4f2, #fafafa);
+  padding: 3rem 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #e6dada;
+}
+
+.subpage-header h1 {
+  font-size: 2.2rem;
+  color: #B76E79;
+  margin-bottom: 0.5rem;
+}
+
+.subpage-header .motto {
+  font-size: 1.1rem;
+  color: #6E5E5F;
+  font-style: italic;
+}
+
+/* 💌 Join Page */
+.join-content {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.join-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #574747;
+}
+
+.button {
+  display: inline-block;
+  background-color: #B76E79;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  margin-top: 5px;
+}
+
+.button:hover {
+  background-color: #9a5d68;
+}
+
+/* 📣 Report Form */
+.report-form {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.report-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.report-form label {
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.report-form input,
+.report-form select,
+.report-form textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.report-form button {
+  background-color: #B76E79;
+  color: #fff;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.report-form button:hover {
+  background-color: #9a5d68;
+}
+
+/* 💗 Support Page */
+.support-ways {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.support-ways ul {
+  list-style: none;
+  padding: 0;
+}
+
+.support-ways li {
+  background-color: #f7f1f3;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-left: 5px solid #B76E79;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.04);
+  font-size: 1.05rem;
+}
+body.two
+{
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif ;
+}
+section
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px 0;
+
+}
+.title
+{
+  font-size: 24px;
+  margin-bottom: 15px;
+
+}
+.beliefs
+{
+  max-width: 600px;
+  list-style-position: inside;
+  padding: 0;
+}
+.action-grid
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+  width: 90%;
+  max-width: 1000px;
+  margin-top: 20px;
+}
+h2,.title,h3
+{
+  color: #B76E79;
+}
